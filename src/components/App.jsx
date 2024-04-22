@@ -26,7 +26,6 @@ function App() {
         return [...prevItems, {text: item, isCompleted: false, isEdited: false, id: getGeneratedRandomId()}]
       }
     })
-    console.log(items)
   }
 
   function resetItems(){
